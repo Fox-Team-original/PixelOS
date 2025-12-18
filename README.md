@@ -1,27 +1,28 @@
-# 🎨 PixelOS
+# 🎨 PixelOS v0.1
 
-Bienvenido a **PixelOS**, un sistema operativo experimental que no usa imágenes tradicionales,  
-sino que construye toda su interfaz con **píxeles coloreados**. Minimalista, rápido y diferente.
+Esta es la primera versión experimental de **PixelOS**, un sistema operativo que no usa imágenes tradicionales,  
+sino que construye toda su interfaz con **píxeles coloreados**.
 
 ---
 
-## 🚀 Características principales
-- 🖼️ **Interfaz única**: todo se renderiza con píxeles coloreados.
-- ⚡ **Ligero y veloz**: pensado para ser más rápido que sistemas convencionales.
-- 🧩 **Experimental**: ideal para aprender cómo funcionan los OS desde cero.
-- 💻 **Versátil**: puede ejecutarse en **máquinas virtuales** (QEMU, VirtualBox) o directamente en **bare-metal**.
+## 🚀 Novedades en v0.1
+- Imagen básica funcional (`PixelOS.zip`).
+- Interfaz inicial basada en píxeles coloreados.
+- Compatible con máquinas virtuales (QEMU, VirtualBox).
+- Soporte para ejecución en bare-metal (hardware real).
 
 ---
 
 ## 📥 Instalación
 
 ### 🔹 En máquina virtual
-1. Descarga la última versión desde la sección de [Releases](https://github.com/Fox-Team-original/PixelOS/releases).
-2. Monta el archivo `.img` en tu máquina virtual favorita.
-3. ¡Explora PixelOS y su mundo de píxeles!
+1. Descarga el archivo `PixelOS.zip` y descomprímelo.
+2. Monta el archivo `.img` incluido en tu máquina virtual favorita.
+3. ¡Explora PixelOS!
 
-### 🔹 En bare-metal (hardware real)
-1. Descarga la imagen `.img` desde [Releases](https://github.com/Fox-Team-original/PixelOS/releases).
-2. Graba la imagen en una memoria USB con herramientas como **Rufus**, **balenaEtcher** o `dd` en Linux:
+### 🔹 En bare-metal
+1. Descomprime `PixelOS.zip` y obtén el archivo `.img`.
+2. Graba la imagen en una memoria USB con **Rufus**, **balenaEtcher** o `dd` en Linux:
    ```bash
    sudo dd if=pixelos.img of=/dev/sdX bs=4M status=progress
+
